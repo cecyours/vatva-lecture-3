@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 extern int e = 39; // global
-static int s;
+static int s; // global + local
 void main()
 {
     auto int a;     // local
