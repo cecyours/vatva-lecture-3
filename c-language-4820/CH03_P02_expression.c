@@ -18,6 +18,8 @@ void main()
         c = a + b;
     else if (operation == '-')
         c = a - b;
+    else if (operation == '*')
+        c = a * b;
 
-        printf("%d %c %d = %d\n", a,operation, b, c);
+    printf("%d %c %d = %d\n", a, operation, b, c);
 }
